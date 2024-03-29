@@ -35,7 +35,6 @@ public class exercicio01 {
     
     public static void showResult(int value){
         System.out.println("Higher = " + value);
-        
     }
     // criando função
 
