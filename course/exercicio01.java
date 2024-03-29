@@ -14,7 +14,7 @@ public class exercicio01 {
 
         // verificar qual o maior número
 
-        if (a > b && b > c){
+        /*if (a > b && b > c){
             System.out.println("Higher = " + a);
         }
         else if (b > c){
@@ -22,7 +22,7 @@ public class exercicio01 {
         }
         else {
             System.out.println("Higher: " + c);
-        }
+        }*/
 
         // pode ser substituido pela função abaixo
 
@@ -32,7 +32,11 @@ public class exercicio01 {
 
         sc.close();
     }
-
+    
+    public static void showResult(int value){
+        System.out.println("Higher = " + value);
+        
+    }
     // criando função
 
     public static int max(int x, int y, int z) {
@@ -48,9 +52,5 @@ public class exercicio01 {
             aux = z;
         }
         return aux;
-    }
-
-    public static void showResult(int value){
-        System.out.println("Higher = " + value);
     }
 }
